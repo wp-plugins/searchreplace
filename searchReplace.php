@@ -100,8 +100,8 @@ function searchReplace_option_page(){
 			$html = "<tr ".$class."><td>".$pattern['name']."</td>";
 			$html .="<td>".$isRegex."</td>";
 			$html .="<td>".$searchReplaceTypes[$pattern['type']]."</td>";
-			$html .="<td><a href=\"/wp-admin/options-general.php?page=".array_pop(explode("/",__FILE__))."&action=delete&id=".$pattern['id']."\">delete</a> |
-						 <a href=\"/wp-admin/options-general.php?page=".array_pop(explode("/",__FILE__))."&action=edit&id=".$pattern['id']."\">edit</a> </td></tr>\n";
+			$html .="<td><a href=\"".get_bloginfo( "wpurl")."/wp-admin/options-general.php?page=".array_pop(explode("/",__FILE__))."&action=delete&id=".$pattern['id']."\">delete</a> |
+						 <a href=\"".get_bloginfo( "wpurl")."/wp-admin/options-general.php?page=".array_pop(explode("/",__FILE__))."&action=edit&id=".$pattern['id']."\">edit</a> </td></tr>\n";
 			$allHTML .= $html;
 		}
 	}
@@ -122,7 +122,7 @@ function searchReplace_option_page(){
 		$header = __('Edit searchReplace','Edit searchReplace');
 		$hidden = '<input type="hidden" name="searchReplaceAction" value="edit"/>';
 		$button = "Update searchReplace";
-		$new = "(<a href=\"/wp-admin/options-general.php?page=".array_pop(explode("/",__FILE__))."\" />Add new</a>)";
+		$new = "(<a href=\"".get_bloginfo( "wpurl")."/wp-admin/options-general.php?page=".array_pop(explode("/",__FILE__))."\" />Add new</a>)";
 	} else {
 		$header = __('Add new searchReplace','Add new searchReplace');
 		$hidden = '<input type="hidden" name="searchReplaceAction" value="new"/>';

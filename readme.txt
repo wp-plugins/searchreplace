@@ -2,9 +2,9 @@
 Contributors: jberculo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7312978
 Tags: comments, posts, regular expression, search, replace, bbcode
-Requires at least: 2.9.2
+Requires at least: 2.9.1
 Tested up to: 2.9.2
-Stable tag: 0.1
+Stable tag: 0.1.1
 
 SearchReplace checks for and replaces content in your posts, pages and/or comments. Fully configurable.
 
@@ -47,3 +47,6 @@ You guys did not ask any!
 
 = 0.1 =
 * First version... Feedback appreciated
+
+= 0.1.1 =
+* When installed in subdirectory, the "edit" and "delete" link did not work
