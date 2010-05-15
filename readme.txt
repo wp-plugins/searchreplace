@@ -45,8 +45,9 @@ You guys did not ask any!
 
 == Changelog ==
 
+= 0.1.1 =
+* When installed in subdirectory, the "edit" and "delete" link did not work
+
 = 0.1 =
 * First version... Feedback appreciated
 
-= 0.1.1 =
-* When installed in subdirectory, the "edit" and "delete" link did not work
