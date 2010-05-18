@@ -2,7 +2,7 @@
 /* 
 Plugin Name: searchReplace
 Description: A simple search and replace plugin. <br/>Licensed under the <a href="http://www.fsf.org/licensing/licenses/gpl.txt">GPL</a>
-Version: 0.1
+Version: 0.1.1
 Author: Joost Berculo
 Author URI: http://www.geencommentaar.nl
 */
@@ -122,7 +122,7 @@ function searchReplace_option_page(){
 		$header = __('Edit searchReplace','Edit searchReplace');
 		$hidden = '<input type="hidden" name="searchReplaceAction" value="edit"/>';
 		$button = "Update searchReplace";
-		$new = "(<a href=\"".get_bloginfo( "wpurl")."/wp-admin/options-general.php?page=".array_pop(explode("/",__FILE__))."\" />Add new</a>)";
+		$new = "(<a href=\"/wp-admin/options-general.php?page=".array_pop(explode("/",__FILE__))."\" />Add new</a>)";
 	} else {
 		$header = __('Add new searchReplace','Add new searchReplace');
 		$hidden = '<input type="hidden" name="searchReplaceAction" value="new"/>';
