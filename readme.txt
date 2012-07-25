@@ -17,7 +17,7 @@ The plugin makes it possible to search for certain texts and replace them, in bo
 For example, you could add the string "[topicimage]" to searchReplace and replace that with your default image tag. 
 When changing your default image you only have to change the searchReplace item to change it site wide!
 
-The plugin support regular expressions which makes it possible to do url replacements, or other more advanced search and replace commands.
+The plugin supports regular expressions as well, which makes it possible to do url replacements, or other more advanced search and replace commands.
 
 Uses: Implementing BBcode (pre configured), replace foul language, easy YouTube insertion (pre configured) etc.
 
