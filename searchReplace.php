@@ -4,7 +4,7 @@ Plugin Name: searchReplace
 Description: A simple search and replace plugin. <br/>Licensed under the <a href="http://www.fsf.org/licensing/licenses/gpl.txt">GPL</a>
 Version: 0.1.1
 Author: Joost Berculo
-Author URI: http://www.geencommentaar.nl
+Author URI: http://www.sargasso.nl
 */
 
 $searchReplaceTypes = array(
