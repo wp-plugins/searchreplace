@@ -3,8 +3,8 @@ Contributors: jberculo
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7312978
 Tags: comments, posts, regular expression, search, replace, bbcode
 Requires at least: 2.9.1
-Tested up to: 3.4.1
-Stable tag: 1.0
+Tested up to: 3.8.1
+Stable tag: 1.1
 
 SearchReplace checks for and replaces content in your posts, pages and/or comments. Fully configurable.
 
@@ -44,6 +44,9 @@ Installation instrucions:
 You guys did not ask any!
 
 == Changelog ==
+
+= 1.1 =
+* Checked if it still worked under 3.8.1 (yes), updated version-nr to 1.1.
 
 = 1.0 =
 * Checked if it still worked under 3.4.1 (yes), updated version-nr to 1.0, as no major bugs have been found.
